@@ -1,0 +1,542 @@
+/* ==========================
+        GOOGLE FONT
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#181818;
+}
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+/* ==========================
+        COMMON
+========================== */
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.common-btn{
+    background:#FD6E0A;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    padding:15px 30px;
+    font-size:18px;
+    font-weight:700;
+    cursor:pointer;
+    transition:.3s;
+    text-decoration:none;
+}
+
+.common-btn:hover{
+    background:#e45d00;
+}
+
+/* ==========================
+        HEADER
+========================== */
+
+header{
+    background:#FFF8F3;
+    padding-top:20px;
+}
+
+nav{
+    max-width:1200px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:45px;
+    font-weight:800;
+}
+
+.logo-mm{
+    color:#FD6E0A;
+}
+
+nav ul{
+    display:flex;
+    align-items:center;
+    gap:35px;
+    list-style:none;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#474747;
+    font-size:20px;
+}
+
+/* ==========================
+        HERO SECTION
+========================== */
+
+.hero-parent{
+    max-width:1200px;
+    margin:40px auto 0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.hero-left{
+    width:50%;
+}
+
+.hero-left h3{
+    font-size:40px;
+    font-weight:600;
+    color:#474747;
+    margin-bottom:10px;
+}
+
+.hero-left h1{
+    font-size:72px;
+    font-weight:700;
+    line-height:82px;
+    margin-bottom:20px;
+}
+
+.hero-left p{
+    font-size:18px;
+    line-height:30px;
+    color:#757575;
+    max-width:540px;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+}
+
+.hero-right{
+    width:50%;
+    height:520px;
+
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+
+    background:url("./images/header_bg.png");
+    background-repeat:no-repeat;
+    background-position:bottom center;
+    background-size:100%;
+}
+
+.hero-right img{
+    width:430px;
+    height:auto;
+}
+
+/* ==========================
+        ABOUT
+========================== */
+
+.about{
+    max-width:1140px;
+    margin:90px auto;
+    padding:80px;
+    background:#FFF8F3;
+    border-radius:10px;
+}
+
+.about-content{
+    background:#FFF8F3;
+    border:1px solid #F1E8E2;
+    padding:60px;
+    text-align:center;
+}
+
+.about-content h2{
+    font-size:35px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+
+.about-content > p{
+    max-width:820px;
+    margin:0 auto 45px;
+    font-size:18px;
+    line-height:30px;
+    color:#757575;
+}
+
+.about-info{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.info-item{
+    flex:1;
+    text-align:center;
+}
+
+.info-item p{
+    font-size:18px;
+    color:#757575;
+    margin-bottom:10px;
+}
+
+.info-item h4{
+    font-size:20px;
+    font-weight:700;
+    color:#474747;
+}
+
+/* ==========================
+        WHAT I DO
+========================== */
+
+.skills{
+    max-width:1140px;
+    margin:130px auto;
+}
+
+.skills h2{
+    font-size:35px;
+    font-weight:700;
+    text-align:center;
+    color:#181818;
+    margin-bottom:30px;
+}
+
+.skills-description{
+    width:909px;
+    margin:0 auto 50px;
+    text-align:center;
+    font-size:18px;
+    line-height:30px;
+    color:#757575;
+}
+
+.skills-container{
+    display:flex;
+    justify-content:space-between;
+    gap:24px;
+}
+
+.skill-card{
+    width:267px;
+    background:#ffffff;
+    padding:30px;
+    border-radius:5px;
+    box-shadow:0px 6px 50px rgba(0,0,0,.06);
+    transition:.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+}
+
+.skill-card img{
+    width:44px;
+    height:44px;
+    margin-bottom:30px;
+}
+
+.skill-card h3{
+    font-size:20px;
+    font-weight:700;
+    color:#181818;
+    margin-bottom:20px;
+}
+
+.skill-card p{
+    font-size:16px;
+    line-height:30px;
+    color:#757575;
+}
+
+/* ==========================
+        RESUME
+========================== */
+
+.resume{
+    max-width:1140px;
+    margin:130px auto;
+}
+
+.resume-title{
+    font-size:35px;
+    font-weight:700;
+    text-align:center;
+    color:#181818;
+    margin-bottom:100px;
+}
+
+.resume-container{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+}
+
+.resume-column{
+    width:48%;
+}
+
+.resume-column h3{
+    font-size:30px;
+    font-weight:700;
+    color:#474747;
+    margin-bottom:35px;
+}
+
+.resume-item{
+    margin-bottom:30px;
+}
+
+.resume-item h4{
+    font-size:25px;
+    font-weight:700;
+    color:#474747;
+    margin-bottom:10px;
+}
+
+.resume-item h5{
+    font-size:20px;
+    font-weight:600;
+    color:#757575;
+    margin-bottom:20px;
+}
+
+.resume-item p{
+    font-size:16px;
+    line-height:28px;
+    color:#757575;
+    margin-bottom:30px;
+}
+
+.resume hr{
+    border:none;
+    border-top:1px solid #d1d1d1;
+    margin-bottom:30px;
+}
+
+/* Resume Download Button */
+
+.resume{
+    max-width:1140px;
+    margin:130px auto 80px;
+}
+
+.resume-btn{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:0;
+}
+
+.download-btn{
+    background:#FD6E0A;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    padding:18px 24px;
+    font-size:20px;
+    font-weight:700;
+    cursor:pointer;
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    box-shadow:none;
+}
+
+.download-btn:hover{
+    background:#e66000;
+}
+
+.download-btn i{
+    font-size:18px;
+}
+
+/* ==========================
+        PORTFOLIO
+========================== */
+
+
+.portfolio{
+    width:1140px;
+    margin:130px auto;
+}
+
+.portfolio h2{
+    font-size:35px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.portfolio-grid{
+
+    display:grid;
+
+    grid-template-columns:364px 364px 364px;
+
+    grid-template-areas:
+    "one two three"
+    "four two six"
+    "four five six";
+
+    gap:24px;
+}
+
+/* Images */
+
+.portfolio-grid img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    border-radius:5px;
+}
+
+/* Grid Areas */
+
+.item1{
+    grid-area:one;
+    height:300px;
+}
+
+.item2{
+    grid-area:two;
+    height:592px;
+}
+
+.item3{
+    grid-area:three;
+    height:300px;
+}
+
+.item4{
+    grid-area:four;
+    height:592px;
+}
+
+.item5{
+    grid-area:five;
+    height:276px;
+}
+
+.item6{
+    grid-area:six;
+    height:592px;
+}
+
+/* ==========================
+        CONTACT
+========================== */
+
+.contact{
+    margin-top:130px;
+    background:#FFF8F3;
+    padding:130px 0;
+}
+
+.contact{
+    display:flex;
+    justify-content:center;
+    gap:120px;
+}
+
+.contact-left,
+.contact-right{
+    width:460px;
+}
+
+.contact h2{
+    font-size:35px;
+    font-weight:700;
+    margin-bottom:28px;
+}
+
+.contact-left p{
+    font-size:16px;
+    line-height:28px;
+    color:#757575;
+    margin-bottom:30px;
+}
+
+.social-icons{
+    display:flex;
+    gap:24px;
+}
+
+.social-icons img{
+    width:24px;
+    height:24px;
+}
+
+.contact-right form{
+    display:flex;
+    flex-direction:column;
+}
+
+.contact-right input{
+    width:100%;
+    height:64px;
+    border:none;
+    border-radius:5px;
+    padding:20px;
+    margin-bottom:24px;
+    font-size:16px;
+    outline:none;
+}
+
+.contact-right textarea{
+    width:100%;
+    height:180px;
+    border:none;
+    border-radius:5px;
+    padding:20px;
+    font-size:16px;
+    resize:none;
+    outline:none;
+    margin-bottom:24px;
+}
+
+.contact-right button{
+    width:150px;
+}
+
+@media print {
+
+    body{
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .common-btn{
+        background:#FD6E0A !important;
+        color:#fff !important;
+    }
+
+    header{
+        background:#FFF8F3 !important;
+    }
+
+    .about,
+    .contact{
+        background:#FFF8F3 !important;
+    }
+
+}
